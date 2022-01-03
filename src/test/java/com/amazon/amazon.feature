@@ -12,7 +12,7 @@ And clicks on trousers
 Then selects an item
 And Add item to wish list
 
-Scenario: Remove selected item
+Scenario: Delete an item 
  When User add selected item to wish list
  And User clicks on view wish list
  And User clicks on more options

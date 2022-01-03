@@ -21,7 +21,7 @@ public class Runner {
 	@BeforeClass
 	public static void set() {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\vinot\\eclipse-workspace\\Amazon\\Driver\\chromedriver.exe");
-		driver= new ChromeDriver();
+		driver=new ChromeDriver();
 }
 }
 
